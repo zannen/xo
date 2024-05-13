@@ -23,3 +23,11 @@
    A block of code which can be called from anywhere. It may take some inputs (arguments) and may return some information.
 1. `for` loop
    Iterate through a list of things, setting a temporary variable to the current list item.
+
+## Running in Python In Pieces
+
+- Go to [Python In Pieces](https://pythoninpieces.com/)
+- Choose "Freecode Project"
+- Paste the contents of `xo.py` into the code window.
+- Add "`run()`" (without the double quotes) to the end of the code.
+- Click Run.
