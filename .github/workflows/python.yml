@@ -72,7 +72,7 @@ jobs:
           virtualenv "$venv"
           source "$venv/bin/activate"
           pip install -r requirements.txt
-          pip install pylint
+          pip install pylint pytest
           ./.pylint.sh
 
       - name: Tests
