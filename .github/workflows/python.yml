@@ -62,8 +62,8 @@ jobs:
           venv="$tmpdir/venv"
           virtualenv "$venv"
           source "$venv/bin/activate"
-          pip install mypy types-requests
-          mypy --ignore-missing-imports .
+          pip install mypy
+          mypy .
 
       - name: Lint with pylint
         run: |
